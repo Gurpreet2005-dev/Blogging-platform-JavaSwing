@@ -53,3 +53,24 @@ BloggingPlatform/
 ## Data Storage
 
 Blog data is stored in a simple text file format (`blogs.txt`) with pipe-separated values for easy parsing and portability.
+
+## Deployment
+
+### Option 1: Executable JAR
+Run the pre-built JAR file:
+```
+java -jar BloggingPlatform.jar
+```
+
+### Option 2: Platform Scripts
+- **Windows**: Double-click `run.bat`
+- **Linux/Mac**: Run `./run.sh`
+
+### Option 3: GitHub Releases
+1. Download the latest release from GitHub
+2. Extract the files
+3. Run using one of the methods above
+
+### Requirements for Deployment
+- Java Runtime Environment (JRE) 8 or higher installed
+- No additional dependencies required
