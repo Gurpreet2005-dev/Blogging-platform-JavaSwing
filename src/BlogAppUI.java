@@ -43,7 +43,7 @@ public class BlogAppUI extends JFrame {
         gbc.gridx = 0; gbc.gridy = 2; gbc.fill = GridBagConstraints.NONE; gbc.weightx = 0;
         addPanel.add(new JLabel("Category:"), gbc);
         gbc.gridx = 1; gbc.fill = GridBagConstraints.HORIZONTAL; gbc.weightx = 1.0;
-        categoryBox = new JComboBox<>(new String[]{"Technology", "Travel", "Food", "Lifestyle"});
+        categoryBox = new JComboBox<>(new String[]{"Technology", "Travel", "Food", "Lifestyle" , "Personal life Experiance"});
         addPanel.add(categoryBox, gbc);
 
         gbc.gridx = 0; gbc.gridy = 3; gbc.fill = GridBagConstraints.NONE; gbc.weightx = 0;
